@@ -15,7 +15,10 @@ Authors :
 
 <p>Our idea is to use machine learning to help decision-making in the process of evaluating an art object. In this work, we will focus on a specific aspect of the evaluation process: estimating the creation date of the artwork. This is a very important information needed by the the appraisal professional in order to give a value to the object. </p>
 
-<p>In this challenge, we will only try to predict the historical period (Antiquity, Middle Age, Modern Time, Contempory Era) of a specific artwork given multiple features about the object. Therefore, we will have to deal with a classification problem. In addition, multiple features of the dataset are "dirty" and categorical. Therefore, this challenge will also require a feature extraction task. </p>
+<p>In this challenge, we will only try to predict the historical period (Antiquity, Middle Age, Modern Time, Contempory Era) of a specific artwork. Therefore, we will have to deal with a classification problem. In order to perform this classification, we will try two different methods: </p>
+
+* Given multiple features about the object (type of object, materials, dimensions...) we will try to predict the corresponding historical period.
+* Given a picture of the object we will try to make the prediction
 
 <img src="ressources/hist_periods.png">
 
