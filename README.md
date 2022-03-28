@@ -18,9 +18,9 @@ Authors :
 <p>In this challenge, we will only try to predict the historical period (Antiquity, Middle Age, Modern Time, Contempory Era) of a specific artwork. Therefore, we will have to deal with a classification problem. In order to perform this classification, we will try two different methods: </p>
 
 * Given multiple features about the object (type of object, materials, dimensions...) we will try to predict the corresponding historical period.
-* <img src="ressources/hist_periods.png">
+<img src="ressources/hist_periods.png">
 * Given a picture of the object we will try to predict from which culture the object is from
-* <img src="ressources/culture.JPG">
+<img src="ressources/culture.JPG">
 
 
 
