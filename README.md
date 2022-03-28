@@ -23,11 +23,11 @@ Authors :
 <img src="ressources/culture.JPG">
 
 ## About the part with the image
-There is notebook `project_images/train_model.ipynb` which contains the code to train a model with the GPU of colab. There is no need in executing this file because we
+There is a notebook `project_images/train_model.ipynb` which contains the code to train a model with the GPU of colab. There is no need in executing this file because we
 saved the model in the file `project_images/vgg16_culture_customized.h5`.
 If you want to execute a notebook to see the performance of this model, you can use `project_images/performance_model_vgg16.ipynb `
 
-<p>For the metrics, we will look at :</p>
+## Metrics used 
 
 * The Negative log likelihood, this loss function is often used for multiclass classification problems
 * We will also look at the accuracy of our results
